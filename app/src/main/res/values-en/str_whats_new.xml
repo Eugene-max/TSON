@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Whats_new">What\'s new</string>
+
+    <string name="Whats_new_text">
+        "New design:"
+        "\nI wonder how many times we used this phrase in the application?"
+        "But we cleaned up again and made a more convenient home screen."
+        "The old one certainly looked cool, even too much to use."
+        \n
+        "\Internet schedule:"
+        "\nWow! We learned how to use the Internet, ahahahha."
+        "Now the schedule will be updated and in the case of which a change in the schedule will be displayed."
+        \n
+        "\nError 1000-7:"
+        "\nFixed several bugs, by order of General Gavs."
+        \n
+    </string>
+
+    <string name="Whats_new_text_2">
+        "1 - the size of the application on your device may be different,"
+        "it depends on the characteristics of your smartphone."
+        \n
+        "\nThe measurement was made on 08/30/2021 at 11:42 pm on a Samsung Galaxy A6 (2018) - SM-A600FN/DS."
+        \n
+        "\n2 - the average weight of a photo on phones in high quality was taken at the expense (4,372 MB)."
+    </string>
+
+</resources>

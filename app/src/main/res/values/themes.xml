@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TSON" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/Background</item>
+        <item name="android:statusBarColor">@color/Background</item>
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/BrandColor</item>
+        <item name="colorPrimary">@color/Background</item>
+        <item name="colorPrimaryVariant">@color/Background</item>
+        <item name="colorOnPrimary">@color/IconOnButton</item>
+        <item name="colorOnSecondary">@color/IconOnButton</item>
+        <item name="colorSecondary">@color/BrandColor</item>
+    </style>
+
+    <style name="Button.Menu" parent="Theme.TSON">
+        <item name="colorPrimary">@color/Button</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceComponent.SmallCornerSize</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceComponent.MediumCornerSize</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceComponent.MediumCornerSize</item>
+    </style>
+
+    <style name="Button.Calculator.Medium" parent="Theme.TSON">
+        <item name="colorPrimary">@color/Button</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceComponent.SmallCornerSize</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceComponent.MediumCornerSize</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceComponent.MediumCornerSize</item>
+    </style>
+
+    <style name="Button.Calculator.Large" parent="Theme.TSON">
+        <item name="colorPrimary">@color/Button</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceComponent.MediumCornerSize</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceComponent.LargeCornerSize</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceComponent.LargeCornerSize</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.TSON">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">@color/SplashScreen</item>
+        <item name="android:navigationBarColor">@color/SplashScreen</item>
+    </style>
+
+    <style name="ThemeOverlay.ShapeSize.Large" parent="">
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceComponent.MediumCornerSize</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceComponent.LargeCornerSize</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceComponent.LargeCornerSize</item>
+    </style>
+
+    <style name="ThemeOverlay.ShapeSize.Medium" parent="">
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceComponent.SmallCornerSize</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceComponent.MediumCornerSize</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceComponent.MediumCornerSize</item>
+    </style>
+    <style name="ThemeOverlay.ShapeSize.Small" parent="">
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceComponent.ExtraSmall</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceComponent.SmallCornerSize</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceComponent.SmallCornerSize</item>
+    </style>
+
+    <style name="ShapeAppearanceComponent.ExtraSmall">
+        <item name="cornerSize">0dp</item>
+    </style>
+    <style name="ShapeAppearanceComponent.LargeCornerSize">
+        <item name="cornerSize">18dp</item>
+    </style>
+    <style name="ShapeAppearanceComponent.MediumCornerSize">
+        <item name="cornerSize">14dp</item>
+    </style>
+    <style name="ShapeAppearanceComponent.SmallCornerSize">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearanceComponent" />
+
+</resources>

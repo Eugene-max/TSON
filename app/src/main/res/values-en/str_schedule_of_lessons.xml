@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ScheduleOfLessons">Schedule Of \nLessons</string>
+    <string name="ScheduleOfLessons_no_n">Schedule of lessons</string>
+
+    <string name="ScheduleOfMonday">
+        1.
+        \n2. PE
+        \n3. History
+        \n4. Math
+        \n5. Russian
+        \n6. Russian
+        \n7. Physics
+        \n7. English
+    </string>
+
+    <string name="ScheduleOfTuesday">
+        1.
+        \n2. Computer Science 1
+        \n3. LSB
+        \n4. Math
+        \n5. Essays
+        \n6. Individual Project
+        \n7. Biology
+        \n8. Computer Science 2
+    </string>
+
+    <string name="ScheduleOfWednesday">
+        1.
+        \n2. Social Science
+        \n3. History
+        \n4. PE
+        \n5. Literature
+        \n6. Individual Project
+        \n7. Professional Career Technology
+        \n8. Math Workshop
+    </string>
+
+    <string name="ScheduleOfThursday">
+        1. Social Science - USE
+        \n2. Law
+        \n3. Chemistry
+        \n4. Geography
+        \n5. English
+        \n6. Literature
+        \n7. Math
+    </string>
+
+    <string name="ScheduleOfFriday">
+        1. PE
+        \n2. English
+        \n3. Physics
+        \n4. Chemistry
+        \n5. NRL
+        \n6. Russian Language Norms
+        \n7. Math
+    </string>
+
+    <string name="ScheduleOfSaturday">
+        1.
+        \n2. Social Science
+        \n3. Financial Literacy
+        \n4. Math
+    </string>
+
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+
+</resources>

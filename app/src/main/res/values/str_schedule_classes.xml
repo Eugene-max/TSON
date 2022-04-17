@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ScheduleOfClass">Расписание \nПар</string>
+    <string name="ScheduleOfClass_no_n">Расписание пар</string>
+
+</resources>

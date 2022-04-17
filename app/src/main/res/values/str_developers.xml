@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Developers">Разработчики</string>
+
+    <string name="Developer_Main">Евгений Лаврентьев👨‍💻</string>
+    <string name="Developer_Main1">Программист &amp; \nГлавный Дизайнер</string>
+    <string name="Developer_Main1_2">Соавтор</string>
+    <string name="Developer_Main_2">Евгения Пичканова🦐</string>
+    <string name="Instagram">Инстаграм</string>
+    <string name="VK">ВКонтакте</string>
+
+</resources>

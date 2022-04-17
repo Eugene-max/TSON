@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/Heading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="17sp"
+            android:textColor="@color/Text"
+            android:text="@string/Whats_new"
+            android:fontFamily="@font/golos_text_medium"
+            android:letterSpacing="0"
+            android:gravity="center" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/stroke_for_whats_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="16dp">
+
+        <ScrollView
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="17sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/What_New_Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Whats_new_text"
+                    android:fontFamily="@font/golos_text_regular" />
+
+<!--                <TextView-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:textColor="@color/text_wh_2"-->
+<!--                    android:id="@+id/What_New_Title2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/Whats_new_text_2"-->
+<!--                    android:fontFamily="@font/golos_text_regular" />-->
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:theme="@style/Button.Calculator.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="10dp"
+            android:text="@string/ok"
+            android:textSize="17sp"
+            android:textColor="@color/TextOnButton"
+            android:textAllCaps="false"
+            android:fontFamily="@font/golos_text_medium"
+            android:letterSpacing="0"
+            android:onClick="Back"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+    </LinearLayout>
+
+</LinearLayout>

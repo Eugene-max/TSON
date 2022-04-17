@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ScheduleOfLessons">Расписание \nУроков</string>
+    <string name="ScheduleOfLessons_no_n">Расписание уроков</string>
+
+    <string name="ScheduleOfMonday">
+        1.
+        \n2. Русский язык
+        \n3. Физкультура
+        \n4. Литература
+        \n5. Математика
+        \n6. Финансовая грамотность
+        \n7. Индивидуальный проект
+        \n8. Классный час
+    </string>
+
+    <string name="ScheduleOfTuesday">
+        1.
+        \n2. Английский язык
+        \n3. История
+        \n4. Математика
+        \n5. Химия
+        \n6. Физика
+        \n7. Биология
+        \n8. Право
+    </string>
+
+    <string name="ScheduleOfWednesday">
+        1. Физкультура
+        \n2. Физкультура
+        \n3. Литература
+        \n4. Обществознание
+        \n5. Русский язык
+        \n6. Технология профессиональной карьеры
+        \n7. Сочинение
+        \n8. Математика
+    </string>
+
+    <string name="ScheduleOfThursday">
+        1.
+        \n2. Математика
+        \n3. Нормы русского языка
+        \n4. Химия
+        \n5. История
+        \n6. Английский язык
+        \n7. Физика
+        \n8. Обществознание - ЕГЭ
+    </string>
+
+    <string name="ScheduleOfFriday">
+        1.
+        \n2. Информатика 1
+        \n3. Литература
+        \n4. РРЛ
+        \n5. Математика
+        \n6. Индивидуальный проект
+        \n7. Обществознание
+        \n8. Информатика 2
+    </string>
+
+    <string name="ScheduleOfSaturday">
+        1. География
+        \n2. Матпрактикум
+        \n3. Английский язык
+        \n4. ОБЖ
+    </string>
+
+    <string name="Monday">Понедельник</string>
+    <string name="Tuesday">Вторник</string>
+    <string name="Wednesday">Среда</string>
+    <string name="Thursday">Четверг</string>
+    <string name="Friday">Пятница</string>
+    <string name="Saturday">Суббота</string>
+
+</resources>

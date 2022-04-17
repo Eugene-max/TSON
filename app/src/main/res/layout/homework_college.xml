@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeworkCollege">
+
+    <TableRow
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Button
+            android:theme="@style/Button.Menu"
+            android:layout_height="match_parent"
+            android:layout_width="62dp"
+            android:gravity="end"
+            android:onClick="Back"
+            android:paddingHorizontal="6dp"
+            app:icon="@drawable/ic_back"
+            app:iconTint="@color/BrandColor"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="@color/Text"
+                android:gravity="center"
+                android:id="@+id/Heading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Homework"
+                android:fontFamily="@font/golos_text_medium" />
+
+        </LinearLayout>
+
+        <Button
+            android:theme="@style/Button.Menu"
+            android:gravity="end"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:onClick="Menu"
+            android:paddingHorizontal="20dp"
+            app:icon="@drawable/ic_button_menu"
+            app:iconTint="@color/BrandColor"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/LV_college"
+        android:background="@color/ButtonHomework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

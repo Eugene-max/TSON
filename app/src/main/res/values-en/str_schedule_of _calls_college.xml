@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ScheduleOfCalls_Class1">1 Class</string>
+    <string name="ScheduleOfCalls_Class2">2 Class</string>
+    <string name="ScheduleOfCalls_Class3">3 Class</string>
+    <string name="ScheduleOfCalls_Class4">4 Class</string>
+    <string name="ScheduleOfCalls_Class5">5 Class</string>
+    <string name="ScheduleOfCalls_Class6">6 Class</string>
+
+</resources>

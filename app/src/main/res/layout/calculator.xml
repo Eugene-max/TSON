@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculator">
+
+    <TableRow
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:gravity="start"
+            android:layout_width="107dp"
+            android:layout_height="match_parent">
+            <Button
+                android:theme="@style/Button.Menu"
+                android:textSize="17sp"
+                android:textColor="@color/TextButton"
+                android:id="@+id/Back_BTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Back"
+                android:onClick="Back"
+                android:textAllCaps="false"
+                android:fontFamily="@font/golos_text_regular"
+                android:letterSpacing="0"
+                android:paddingHorizontal="6dp"
+                app:icon="@drawable/ic_back"
+                app:iconTint="@color/BrandColor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/Heading"
+                android:textSize="17sp"
+                android:textColor="@color/Text"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Calculator"
+                android:fontFamily="@font/golos_text_medium"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:layout_width="107dp"
+            android:layout_height="match_parent">
+            <Button
+                android:theme="@style/Button.Menu"
+                android:layout_marginEnd="6dp"
+                android:gravity="end"
+                android:id="@+id/Menu"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:onClick="Menu"
+                android:paddingHorizontal="20dp"
+                app:icon="@drawable/ic_button_menu"
+                app:iconTint="@color/BrandColor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Mini_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/golos_text_regular"
+                android:gravity="end"
+                android:paddingHorizontal="28dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:textColor="@color/Text"
+                android:textIsSelectable="true"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/Main_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/golos_text_regular"
+                android:gravity="end"
+                android:paddingHorizontal="28dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:textColor="@color/Text"
+                android:textIsSelectable="true"
+                android:textSize="48sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp">
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/BrandColor"
+                    android:id="@+id/ButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/C"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonSeven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Seven"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Four"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/One"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Background"
+                    android:id="@+id/ButtonBackSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/BackSpace"
+                    android:background="@color/Background"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/BrandColor"
+                    android:id="@+id/ButtonBracket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Brackets"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonEight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Eight"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Five"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Two"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonZero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Zero"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/BrandColor"
+                    android:id="@+id/ButtonPercent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Percent"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonNine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nine"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonSix"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Six"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Three"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Large"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonFloat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Dot"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/background_buttons_in_calculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp">
+
+                <Button
+                    android:theme="@style/Button.Calculator.Medium"
+                    android:textSize="34sp" android:textColor="@color/Text"
+                    android:id="@+id/ButtonDivision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="7.5dp"
+                    android:text="@string/Division"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    android:layout_marginHorizontal="7.5dp"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button android:theme="@style/Button.Calculator.Medium"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonMultiplication"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="7.5dp"
+                    android:text="@string/Multiplication"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    android:layout_marginHorizontal="7.5dp"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button android:theme="@style/Button.Calculator.Medium"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonMinus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="7.5dp"
+                    android:text="@string/Minus"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    android:layout_marginHorizontal="7.5dp"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button android:theme="@style/Button.Calculator.Medium"
+                    android:textSize="34sp"
+                    android:textColor="@color/Text"
+                    android:id="@+id/ButtonPlus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="7.5dp"
+                    android:text="@string/Plus"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    android:layout_marginHorizontal="7.5dp"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+                <Button
+                    android:theme="@style/Button.Calculator.Medium"
+                    android:textSize="34sp"
+                    android:textColor="@color/TextOnButton"
+                    android:id="@+id/ButtonExactly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="7.5dp"
+                    android:text="@string/Equals"
+                    android:fontFamily="@font/sf_pro_rounded_semibold"
+                    android:layout_marginHorizontal="7.5dp"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

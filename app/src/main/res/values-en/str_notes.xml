@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Note">Note</string>
+    <string name="Note_From_TSON_2_0_0">Note from version TSON 2.0.0</string>
+    <string name="Notes">Notes</string>
+    <string name="Heading_note">Tasks, Thoughts, Ideas.</string>
+    <string name="CreateNewNote">Create new note</string>
+
+</resources>

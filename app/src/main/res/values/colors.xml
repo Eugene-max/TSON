@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Background">#ffffff</color>
+    <color name="Background_for_buttons">#e0e0e0</color>
+    <color name="BrandColor">#007aff</color>
+    <color name="Button">#007aff</color>
+    <color name="ButtonHomework">#ffffff</color>
+    <color name="ButtonSpecialPurpose">#ffcc00</color>
+    <color name="Button_outlined_pressed_or_focused">#80007aff</color>
+    <color name="IconOnButton">#ffffff</color>
+    <color name="SplashScreen">#ffffff</color>
+    <color name="Stroke">#c4c4c4</color>
+    <color name="Text">#000000</color>
+    <color name="TextButton">#007aff</color>
+    <color name="TextCategory">#8e8e93</color>
+    <color name="TextContext">#707070</color>
+    <color name="TextH">#212121</color>
+    <color name="TextHint">#7b7b7f</color>
+    <color name="TextOnButton">#ffffff</color>
+    <color name="TextSpecialPurpose">#000000</color>
+    <color name="text_wh_2">#7f7f7f</color>
+    <color name="Logo_TSON">#000000</color>
+
+    <color name="cardview_dark_background">#424242</color>
+    <color name="cardview_light_background">#ffffff</color>
+    <color name="ic_app_tson_background">#ffffff</color>
+    <color name="notification_icon_bg_color">#9e9e9e</color>
+
+</resources>

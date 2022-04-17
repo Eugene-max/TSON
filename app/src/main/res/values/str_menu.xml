@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Menu">Меню</string>
+    <string name="Update">Обновление</string>
+    <string name="AboutApp">О приложении</string>
+    <string name="Bug_report">Сообщение о проблеме</string>
+    <string name="Button_download_update_text">Скачать обновление</string>
+    <string name="Feedback">Отзыв о приложении</string>
+
+</resources>

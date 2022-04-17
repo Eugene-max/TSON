@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Background">#111111</color>
+    <color name="Background_for_buttons">#282828</color>
+    <color name="BrandColor">#0a84ff</color>
+    <color name="Button">#0a84ff</color>
+    <color name="ButtonHomework">#000000</color>
+    <color name="ButtonSpecialPurpose">#ffd60a</color>
+    <color name="Button_outlined_pressed_or_focused">#800a84ff</color>
+    <color name="IconOnButton">#ffffff</color>
+    <color name="SplashScreen">#171717</color>
+    <color name="Stroke">#404040</color>
+    <color name="Text">#ffffff</color>
+    <color name="TextButton">#0a84ff</color>
+    <color name="TextCategory">#96969c</color>
+    <color name="TextContext">#aaaaaa</color>
+    <color name="TextH">#f0f0f0</color>
+    <color name="TextHint">#98989f</color>
+    <color name="TextOnButton">#ffffff</color>
+    <color name="TextSpecialPurpose">#000000</color>
+    <color name="text_wh_2">#a0a0a0</color>
+    <color name="Logo_TSON">#FFFFFF</color>
+</resources>

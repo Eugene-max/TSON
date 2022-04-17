@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ScheduleOfCalls">Schedule Of \nCalls</string>
+    <string name="ScheduleOfCalls_no_n">Schedule of calls</string>
+
+    <string name="ScheduleOfCalls_Lesson1">1 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson2">2 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson3">3 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson4">4 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson5">5 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson6">6 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson7">7 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson8">8 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson9">9 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson10">10 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson11">11 Lesson</string>
+    <string name="ScheduleOfCalls_Lesson12">12 Lesson</string>
+
+    <string name="Schedule_calls_for_Saturday">Schedule calls for saturday</string>
+
+</resources>

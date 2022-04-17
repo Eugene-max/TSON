@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="60dp">
+            <LinearLayout android:gravity="start" android:layout_width="107dp" android:layout_height="match_parent">
+                <Button android:textSize="17sp" android:textColor="@color/TextButton" android:id="@+id/Back_BTN" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/Back" android:onClick="Back" android:textAllCaps="false" android:fontFamily="@font/golos_text_regular" android:letterSpacing="-0.02" android:paddingHorizontal="16dp" app:icon="@drawable/ic_back" app:iconTint="@color/BrandColor" style="@style/Widget.MaterialComponents.Button.TextButton"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="17sp" android:textColor="@color/Text" android:gravity="center" android:id="@+id/Heading" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/Notes" android:fontFamily="@font/golos_text_medium" android:letterSpacing="-0.02"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="107dp" android:layout_height="match_parent">
+                <Button android:gravity="end" android:id="@+id/Menu" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="62dp" android:layout_height="match_parent" android:onClick="Menu" android:paddingHorizontal="20dp" app:icon="@drawable/ic_button_menu" app:iconTint="@color/BrandColor" style="@style/Widget.MaterialComponents.Button.TextButton"/>
+            </LinearLayout>
+        </TableRow>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ListView android:id="@+id/OldNote" android:background="@color/ButtonHomework" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ListView android:id="@+id/NotesList" android:background="@color/ButtonHomework" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="199dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:onClick="FAB" android:layout_marginEnd="16dp" app:srcCompat="@drawable/button_fab_add_note"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="No_Internet">Нет интернета</string>
+    <string name="No_Internet_sol">Нет подключения к Интернету. Расписание уроков отображается стандартное, без изменений.</string>
+    <string name="Try_Again">Повторить попытку</string>
+    <string name="Turn_On_Internet">Включите Wi-Fi или Мобильные данные</string>
+
+</resources>

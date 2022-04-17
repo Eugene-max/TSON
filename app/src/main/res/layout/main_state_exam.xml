@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="60dp">
+        <LinearLayout android:gravity="start" android:layout_width="124dp" android:layout_height="match_parent">
+            <Button android:textSize="17sp" android:textColor="@color/TextButton" android:id="@+id/Back_BTN" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/Back" android:onClick="Back" android:textAllCaps="false" android:fontFamily="@font/golos_text_regular" android:letterSpacing="-0.02" android:paddingHorizontal="16dp" app:icon="@drawable/ic_back" app:iconTint="@color/BrandColor" style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="17sp" android:textColor="@color/Text" android:gravity="center" android:id="@+id/Heading" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/MSE" android:fontFamily="@font/golos_text_medium" android:letterSpacing="-0.02"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="124dp" android:layout_height="match_parent">
+            <Button android:gravity="end" android:id="@+id/Refresh" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="62dp" android:layout_height="match_parent" android:onClick="Retry" android:paddingHorizontal="20dp" app:icon="@drawable/ic_refresh_page" app:iconTint="@color/BrandColor" style="@style/Widget.MaterialComponents.Button.TextButton"/>
+            <Button android:gravity="end" android:id="@+id/Menu" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="62dp" android:layout_height="match_parent" android:onClick="Menu" android:paddingHorizontal="20dp" app:icon="@drawable/ic_button_menu" app:iconTint="@color/BrandColor" style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        </LinearLayout>
+    </TableRow>
+    <WebView android:id="@+id/WV_MSE" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

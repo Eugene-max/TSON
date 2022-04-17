@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background_no_internet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:theme="@style/Button.Menu"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingHorizontal="20dp"
+        android:layout_margin="12dp"
+        android:gravity="end"
+        android:onClick="Back"
+        app:icon="@drawable/ic_exit"
+        app:iconTint="@color/IconOnButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="34sp"
+            android:textColor="@color/TextOnButton"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/No_Internet"
+            android:fontFamily="@font/golos_text_demibold"
+            android:paddingVertical="4dp"/>
+
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/TextOnButton"
+            android:gravity="center"
+            android:paddingBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Turn_On_Internet"
+            android:fontFamily="@font/golos_text_regular"/>
+
+        <Button
+            android:theme="@style/ThemeOverlay.ShapeSize.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingHorizontal="28dp"
+            android:paddingVertical="10dp"
+            android:text="@string/Try_Again"
+            android:textSize="17sp"
+            android:textColor="@color/TextOnButton"
+            android:textAllCaps="false"
+            android:fontFamily="@font/golos_text_medium"
+            android:letterSpacing="0"
+            android:onClick="Retry"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

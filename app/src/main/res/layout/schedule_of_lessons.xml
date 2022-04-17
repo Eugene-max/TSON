@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Button
+            android:theme="@style/Button.Menu"
+            android:textSize="17sp"
+            android:textColor="@color/TextButton"
+            android:id="@+id/Back_BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/Back"
+            android:onClick="Back"
+            android:textAllCaps="false"
+            android:fontFamily="@font/golos_text_regular"
+            android:letterSpacing="0"
+            android:paddingHorizontal="6dp"
+            app:icon="@drawable/ic_back"
+            app:iconTint="@color/BrandColor"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Heading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ScheduleOfLessons_no_n"
+                android:textSize="15sp"
+                android:textColor="@color/Text"
+                android:maxLines="1"
+                android:fontFamily="@font/golos_text_medium"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                android:paddingHorizontal="1dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Refresh"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:onClick="Retry"
+                android:paddingHorizontal="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:icon="@drawable/ic_refresh_page"
+                app:iconTint="@color/BrandColor" />
+
+            <Button
+                android:id="@+id/Menu"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:onClick="Menu"
+                android:paddingHorizontal="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:icon="@drawable/ic_button_menu"
+                app:iconTint="@color/BrandColor" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <WebView
+        android:id="@+id/WVSL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

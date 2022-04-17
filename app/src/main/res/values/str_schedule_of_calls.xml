@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ScheduleOfCalls">Расписание\nЗвонков</string>
+    <string name="ScheduleOfCalls_no_n">Расписание звонков</string>
+
+    <string name="ScheduleOfCalls_Lesson1">1 Урок</string>
+    <string name="ScheduleOfCalls_Lesson2">2 Урок</string>
+    <string name="ScheduleOfCalls_Lesson3">3 Урок</string>
+    <string name="ScheduleOfCalls_Lesson4">4 Урок</string>
+    <string name="ScheduleOfCalls_Lesson5">5 Урок</string>
+    <string name="ScheduleOfCalls_Lesson6">6 Урок</string>
+    <string name="ScheduleOfCalls_Lesson7">7 Урок</string>
+    <string name="ScheduleOfCalls_Lesson8">8 Урок</string>
+    <string name="ScheduleOfCalls_Lesson9">9 Урок</string>
+    <string name="ScheduleOfCalls_Lesson10">10 Урок</string>
+    <string name="ScheduleOfCalls_Lesson11">11 Урок</string>
+    <string name="ScheduleOfCalls_Lesson12">12 Урок</string>
+
+    <string name="ScheduleOfCalls_Lesson1_Time" translatable="false">8:00\–8:40</string>
+    <string name="ScheduleOfCalls_Lesson2_Time" translatable="false">9:00\–9:40</string>
+    <string name="ScheduleOfCalls_Lesson3_Time" translatable="false">10:00\-10:40</string>
+    <string name="ScheduleOfCalls_Lesson4_Time" translatable="false">11:00\-11:40</string>
+    <string name="ScheduleOfCalls_Lesson5_Time" translatable="false">12:00\-12:40</string>
+    <string name="ScheduleOfCalls_Lesson6_Time" translatable="false">13:00\-13:40</string>
+    <string name="ScheduleOfCalls_Lesson7_Time" translatable="false">14:00\-14:40</string>
+    <string name="ScheduleOfCalls_Lesson8_Time" translatable="false">14:50\-15:30</string>
+    <string name="ScheduleOfCalls_Lesson9_Time" translatable="false">15:40\-16:20</string>
+    <string name="ScheduleOfCalls_Lesson10_Time" translatable="false">16:30\-17:10</string>
+    <string name="ScheduleOfCalls_Lesson11_Time" translatable="false">17:20\-18:00</string>
+    <string name="ScheduleOfCalls_Lesson12_Time" translatable="false">18:10\-18:50</string>
+
+    <string name="Schedule_calls_for_Saturday">Расписание звонков на субботу</string>
+
+    <string name="ScheduleOfCalls_Lesson1_Saturday_Time" translatable="false">8:00\–8:40</string>
+    <string name="ScheduleOfCalls_Lesson2_Saturday_Time" translatable="false">8:50\–9:30</string>
+    <string name="ScheduleOfCalls_Lesson3_Saturday_Time" translatable="false">9:40\-10:20</string>
+    <string name="ScheduleOfCalls_Lesson4_Saturday_Time" translatable="false">10:30\-11:10</string>
+    <string name="ScheduleOfCalls_Lesson5_Saturday_Time" translatable="false">11:30\-12:10</string>
+    <string name="ScheduleOfCalls_Lesson6_Saturday_Time" translatable="false">12:20\-13:00</string>
+    <string name="ScheduleOfCalls_Lesson7_Saturday_Time" translatable="false">13:40\-14:20</string>
+
+
+</resources>

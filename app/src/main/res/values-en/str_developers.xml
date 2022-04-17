@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Developers">Developers</string>
+
+    <string name="Developer_Main">Eugene Lavrentev👨‍💻</string>
+    <string name="Developer_Main1">Developer &amp; \nChief designer officer</string>
+    <string name="Developer_Main1_2">co-author</string>
+    <string name="Developer_Main_2">Evgenia Pichkanova🦐</string>
+    <string name="Instagram">Instagram</string>
+    <string name="VK">VK or VKontakte</string>
+
+</resources>

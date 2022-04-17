@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TableRow
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:textSize="34sp"
+                android:textColor="@color/Text"
+                android:gravity="center_vertical"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/H1"
+                android:layout_weight="1"
+                android:fontFamily="@font/golos_text_demibold"
+                android:paddingHorizontal="28dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="18dp">
+
+                <Button
+                    android:theme="@style/Button.Menu"
+                    android:gravity="end"
+                    android:id="@+id/Menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:onClick="Menu"
+                    android:paddingHorizontal="20dp"
+                    app:icon="@drawable/ic_button_menu"
+                    app:iconTint="@color/BrandColor"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/C1"
+            android:textSize="14sp"
+            android:textColor="@color/TextCategory"
+            android:fontFamily="@font/golos_text_medium"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="8dp"
+            android:paddingVertical="4dp"
+            android:gravity="center_vertical|start"
+            android:foreground="@drawable/button_outlined"
+            android:background="@drawable/button_outlined"
+            android:fontFamily="@font/golos_text_medium"
+            android:text="@string/ScheduleOfLessons_no_n"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textColor="@color/Text"
+            android:letterSpacing="0"
+            android:onClick="ScheduleOfLessons"
+            app:icon="@drawable/ic_schedule_of_lessons"
+            app:iconTint="@color/Text"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="8dp"
+            android:paddingVertical="4dp"
+            android:gravity="center_vertical|start"
+            android:foreground="@drawable/button_outlined"
+            android:background="@drawable/button_outlined"
+            android:fontFamily="@font/golos_text_medium"
+            android:text="@string/ScheduleOfCalls_no_n"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textColor="@color/Text"
+            android:letterSpacing="0"
+            android:onClick="ScheduleOfCalls"
+            app:icon="@drawable/ic_schedule_of_calls"
+            app:iconTint="@color/Text"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="8dp"
+            android:paddingVertical="4dp"
+            android:gravity="center_vertical|start"
+            android:foreground="@drawable/button_outlined"
+            android:background="@drawable/button_outlined"
+            android:fontFamily="@font/golos_text_medium"
+            android:text="@string/Homework"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textColor="@color/Text"
+            android:letterSpacing="0"
+            android:onClick="Homework"
+            app:icon="@drawable/ic_homework"
+            app:iconTint="@color/Text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/C2"
+            android:textSize="14sp"
+            android:textColor="@color/TextCategory"
+            android:fontFamily="@font/golos_text_medium"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginVertical="4dp"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="8dp"
+            android:paddingVertical="5dp"
+            android:gravity="center_vertical|start"
+            android:foreground="@drawable/button_outlined"
+            android:background="@drawable/button_outlined"
+            android:fontFamily="@font/golos_text_medium"
+            android:text="@string/Notes"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textColor="@color/Text"
+            android:letterSpacing="0"
+            android:onClick="Notes"
+            app:icon="@drawable/ic_notes"
+            app:iconTint="@color/Text"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="8dp"
+            android:paddingVertical="5dp"
+            android:gravity="center_vertical|start"
+            android:foreground="@drawable/button_outlined"
+            android:background="@drawable/button_outlined"
+            android:fontFamily="@font/golos_text_medium"
+            android:text="@string/Calculator"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textColor="@color/Text"
+            android:letterSpacing="0"
+            android:onClick="Calculator"
+            app:icon="@drawable/ic_calculator"
+            app:iconTint="@color/Text"/>
+    </LinearLayout>
+</ScrollView>

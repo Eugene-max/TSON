@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1010061141170",
+    "project_id": "notification-update-tson",
+    "storage_bucket": "notification-update-tson.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010061141170:android:257c964afa0ea105da95ab",
+        "android_client_info": {
+          "package_name": "tson.group.apptson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010061141170-7t369vbrlqklcjf0cm45e6obgj1ttj9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLHKrUFDgUlcpfaOMlIppiOXUWpt5p94M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010061141170-7t369vbrlqklcjf0cm45e6obgj1ttj9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

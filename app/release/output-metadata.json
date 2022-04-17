@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "tson.group.apptson",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 666,
+      "versionName": "4.1.0 - 666",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

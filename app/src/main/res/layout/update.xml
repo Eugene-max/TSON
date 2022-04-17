@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:gravity="start"
+            android:layout_width="107dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:theme="@style/Button.Menu"
+                android:textSize="17sp"
+                android:textColor="@color/TextButton"
+                android:id="@+id/Back_BTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Back"
+                android:onClick="Back"
+                android:textAllCaps="false"
+                android:fontFamily="@font/golos_text_regular"
+                android:letterSpacing="0"
+                android:paddingHorizontal="6dp"
+                app:icon="@drawable/ic_back"
+                app:iconTint="@color/BrandColor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Heading"
+                android:textSize="17sp"
+                android:textColor="@color/Text"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Update"
+                android:fontFamily="@font/golos_text_medium"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:layout_width="107dp"
+            android:layout_height="match_parent">
+            <Button
+                android:theme="@style/Button.Menu"
+                android:layout_marginEnd="6dp"
+                android:gravity="end"
+                android:id="@+id/Menu"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:onClick="Retry"
+                android:paddingHorizontal="20dp"
+                app:icon="@drawable/ic_refresh_page"
+                app:iconTint="@color/BrandColor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <WebView
+        android:id="@+id/WV_U"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:theme="@style/Button.Calculator.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:paddingVertical="12dp"
+            android:text="@string/Button_download_update_text"
+            android:textSize="17sp"
+            android:textColor="@color/TextOnButton"
+            android:textAllCaps="false"
+            android:fontFamily="@font/golos_text_medium"
+            android:letterSpacing="0"
+            android:onClick="Update_VersionApp"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+
+    </LinearLayout>
+
+</LinearLayout>

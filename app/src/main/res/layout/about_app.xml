@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:gravity="start"
+            android:layout_width="107dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:theme="@style/Button.Menu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="6dp"
+                android:text="@string/Back"
+                android:textSize="17sp"
+                android:textColor="@color/TextButton"
+                android:textAllCaps="false"
+                android:fontFamily="@font/golos_text_regular"
+                android:letterSpacing="0"
+                android:onClick="Back"
+                app:icon="@drawable/ic_back"
+                app:iconTint="@color/BrandColor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="@color/Text"
+                android:gravity="center"
+                android:id="@+id/Heading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/AboutApp"
+                android:fontFamily="@font/golos_text_medium"
+                android:letterSpacing="-0.02"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="107dp"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="32dp"
+                android:src="@drawable/ic_app_tson"
+                android:contentDescription="@string/app_name"/>
+            <include
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/version_app"/>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="28dp">
+
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_vertical|start"
+                    android:foreground="@drawable/button_outlined"
+                    android:background="@drawable/button_outlined"
+                    android:fontFamily="@font/golos_text_medium"
+                    android:text="@string/Developers"
+                    android:textAllCaps="false"
+                    android:textSize="17sp"
+                    android:textColor="@color/Text"
+                    android:letterSpacing="0"
+                    android:onClick="Developer"
+                    app:icon="@drawable/ic_developers"
+                    app:iconTint="@color/Text"/>
+
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="4dp"
+                    android:layout_marginVertical="8dp"
+                    android:gravity="center_vertical|start"
+                    android:foreground="@drawable/button_outlined"
+                    android:background="@drawable/button_outlined"
+                    android:fontFamily="@font/golos_text_medium"
+                    android:text="@string/Update"
+                    android:textAllCaps="false"
+                    android:textSize="17sp"
+                    android:textColor="@color/Text"
+                    android:letterSpacing="0"
+                    android:onClick="Update_VA"
+                    app:icon="@drawable/ic_update"
+                    app:iconTint="@color/Text"/>
+
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="4dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical|start"
+                    android:foreground="@drawable/button_outlined"
+                    android:background="@drawable/button_outlined"
+                    android:fontFamily="@font/golos_text_medium"
+                    android:text="@string/Whats_new"
+                    android:textAllCaps="false"
+                    android:textSize="17sp"
+                    android:textColor="@color/Text"
+                    android:letterSpacing="0"
+                    android:onClick="WhatsNew"
+                    app:icon="@drawable/ic_what_new"
+                    app:iconTint="@color/Text"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="32dp"
+                android:src="@drawable/logo_lavrentev"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

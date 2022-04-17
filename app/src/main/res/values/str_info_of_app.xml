@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TSON</string>
+    <string name="Version">
+        "Версия:"
+        ""
+    </string>
+    <string name="Version_App" translatable="false">4.1.0</string>
+    <string name="Version_App_Beta" translatable="false">4.1.0 Beta 4</string>
+
+</resources>

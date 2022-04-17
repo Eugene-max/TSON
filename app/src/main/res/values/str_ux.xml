@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Back">Назад</string>
+    <string name="Done">Готово</string>
+    <string name="ok">Ок</string>
+    <string name="Soon">Скоро\.\.\.</string>
+
+</resources>

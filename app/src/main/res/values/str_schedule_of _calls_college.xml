@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ScheduleOfCalls_Class1">1 Пара</string>
+    <string name="ScheduleOfCalls_Class2">2 Пара</string>
+    <string name="ScheduleOfCalls_Class3">3 Пара</string>
+    <string name="ScheduleOfCalls_Class4">4 Пара</string>
+    <string name="ScheduleOfCalls_Class5">5 Пара</string>
+    <string name="ScheduleOfCalls_Class6">6 Пара</string>
+
+    <string name="ScheduleOfCalls_Class1_Time" translatable="false">9:00\–10:30</string>
+    <string name="ScheduleOfCalls_Class2_Time" translatable="false">10:40\–12:10</string>
+    <string name="ScheduleOfCalls_Class3_Time" translatable="false">12:40\-14:10</string>
+    <string name="ScheduleOfCalls_Class4_Time" translatable="false">14:20\-15:50</string>
+    <string name="ScheduleOfCalls_Class5_Time" translatable="false">16:00\-17:30</string>
+    <string name="ScheduleOfCalls_Class6_Time" translatable="false">17:40\-19:10</string>
+
+</resources>

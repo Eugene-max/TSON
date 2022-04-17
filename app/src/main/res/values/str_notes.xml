@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Note">Заметка</string>
+    <string name="Note_From_TSON_2_0_0">Заметка с версии TSON 2.0.0</string>
+    <string name="Notes">Заметки</string>
+    <string name="Heading_note">Задачи, мысли, идеи.</string>
+    <string name="CreateNewNote">Создать новую заметку</string>
+
+</resources>

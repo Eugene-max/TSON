@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Homework">Домашняя Работа</string>
+    <string name="Hint_Homework">Запишите домашнюю работу</string>
+
+    <string name="School_Project_title">Проект</string>
+    <string name="MSE">ОГЭ</string>
+    <string name="USE">ЕГЭ</string>
+    <string name="School_Project_descriptionHeading">Задачи по проекту</string>
+
+    <string name="Algebra">Алгебра</string>
+    <string name="Astronomy">Астрономия</string>
+    <string name="English">Английский язык</string>
+    <string name="Biology">Биология</string>
+    <string name="ITTP">ВВП</string>
+    <string name="Geography">География</string>
+    <string name="Geometry">Геометрия</string>
+    <string name="ComputerScience">Информатика</string>
+    <string name="History">История</string>
+    <string name="Class_Hour">Классный час</string>
+    <string name="Literature">Литература</string>
+    <string name="Math">Математика</string>
+    <string name="Math_Workshop">Математический практикум</string>
+    <string name="German">Немецкий язык</string>
+    <string name="Russian_Language_Norms">Нормы русского языка</string>
+    <string name="Social_Science">Обществознание</string>
+    <string name="Social_Science_USE">Обществознание - ЕГЭ</string>
+    <string name="LSB">ОБЖ</string>
+    <string name="Law">Право</string>
+    <string name="Individual_Project">Индивидуальный проект</string>
+    <string name="Russian">Русский язык</string>
+    <string name="NRL">РРЯ</string>
+    <string name="Soft_skills" translatable="false">Soft Skills</string>
+    <string name="Social_Psychology">Социальная психология</string>
+    <string name="Essays">Сочинение</string>
+    <string name="Time_Management">Тайм-менеджмент</string>
+    <string name="Professional_career_technology">Технология профессиональной карьеры</string>
+    <string name="Financial_Literacy">Финансовая грамотность</string>
+    <string name="French">Французский язык</string>
+    <string name="Physics">Физика</string>
+    <string name="PE">Физкультура</string>
+    <string name="Chemistry">Химия</string>
+
+    <string-array name="Lessons">
+        <item>Алгебра</item>
+        <item>Английский язык</item>
+        <item>Биология</item>
+        <item>География</item>
+        <item>Геометрия</item>
+        <item>Информатика</item>
+        <item>История</item>
+        <item>Классный час</item>
+        <item>Литература</item>
+        <item>Математика</item>
+        <item>Математический практикум</item>
+        <item>Немецкий язык</item>
+        <item>Нормы русского языка</item>
+        <item>Обществознание</item>
+        <item>Обществознание - ЕГЭ</item>
+        <item>ОБЖ</item>
+        <item>Право</item>
+        <item>Индивидуальный проект</item>
+        <item>Русский язык</item>
+        <item>РРЯ</item>
+        <item>Сочинение</item>
+        <item>Технология профессиональной карьеры</item>
+        <item>Французский язык</item>
+        <item>Физика</item>
+        <item>Физкультура</item>
+        <item>Финансовая грамотность</item>
+        <item>Химия</item>
+    </string-array>
+
+    <string-array name="Classes">
+        <item>Астрономия</item>
+        <item>ВВП</item>
+        <item>Классный час</item>
+        <item>Математика</item>
+        <item>Обществознание</item>
+        <item>ОБЖ</item>
+        <item>Русский язык</item>
+        <item>Soft Skills</item>
+        <item>Социальная психология</item>
+        <item>Тайм-менеджмент</item>
+        <item>Физика</item>
+        <item>Физкультура</item>
+    </string-array>
+
+    <string-array name="OldNote">
+        <item>Заметка с версии TSON 2.0.0</item>
+    </string-array>
+
+</resources>

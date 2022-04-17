@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tson.group.apptson">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_app_tson"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_tson_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TSON"
+        tools:ignore="LockedOrientationActivity"
+        tools:targetApi="m">
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <service
+            android:name=".java.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_app_tson" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/BrandColor" />
+
+        <activity
+            android:name=".Astronomy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ITTP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SoftSkills"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SocialPsychology"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TimeManagement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeworkCollege"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MathWorkshop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FinancialLiteracy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RussianLanguageNorms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Law"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SocialScienceUSE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfessionalCareerTechnology"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Essays"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateVA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SchoolProject"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoteDefault"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OldNote"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainStateExam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Calculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Developer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WhatsNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BugReport"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Feedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Geography"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemistry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Physics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Math"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ComputerScience"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Geometry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Biology"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".French"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NRL"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LSB"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SocialScience"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".German"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Literature"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassHour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".History"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".English"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Algebra"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Russian"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Homework"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScheduleOfCallsCollege"
+            android:label="@string/ScheduleOfCalls_no_n"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScheduleOfClass"
+            android:label="@string/ScheduleOfClass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScheduleOfCalls"
+            android:label="@string/ScheduleOfCalls_no_n"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScheduleOfLessons"
+            android:label="@string/ScheduleOfLessons"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

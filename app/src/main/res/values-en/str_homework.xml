@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Homework">Homework</string>
+    <string name="Hint_Homework">Enter Homework</string>
+
+    <string name="School_Project_title">Project</string>
+    <string name="MSE">MSE</string>
+    <string name="USE">USE</string>
+    <string name="School_Project_descriptionHeading">Задачи по проекту</string>
+
+    <string name="Algebra">Algebra</string>
+    <string name="Astronomy">Astronomy</string>
+    <string name="English">English</string>
+    <string name="Biology">Biology</string>
+    <string name="ITTP">ITTP</string>
+    <string name="Geography">Geography</string>
+    <string name="Geometry">Geometry</string>
+    <string name="ComputerScience">Computer Science</string>
+    <string name="History">History</string>
+    <string name="Class_Hour">Class Hour</string>
+    <string name="Literature">Literature</string>
+    <string name="Math">Math</string>
+    <string name="Math_Workshop">Math Workshop</string>
+    <string name="German">German</string>
+    <string name="Russian_Language_Norms">Russian Language Norms</string>
+    <string name="Social_Science">Social Science</string>
+    <string name="Social_Science_USE">Social Science - USE</string>
+    <string name="LSB">LSB</string>
+    <string name="Law">Law</string>
+    <string name="Individual_Project">Individual_Project</string>
+    <string name="Russian">Russian</string>
+    <string name="NRL">NRL</string>
+    <string name="Essays">Essays</string>
+    <string name="Social_Psychology">Social Psychology</string>
+    <string name="Time_Management">Time-management</string>
+    <string name="Professional_career_technology">Professional Career Technology</string>
+    <string name="Financial_Literacy">Financial Literacy</string>
+    <string name="French">French</string>
+    <string name="Physics">Physics</string>
+    <string name="PE">PE</string>
+    <string name="Chemistry">Chemistry</string>
+
+    <string-array name="Lessons">
+        <item>Algebra</item>
+        <item>English</item>
+        <item>Biology</item>
+        <item>Geography</item>
+        <item>Geometry</item>
+        <item>Computer science</item>
+        <item>History</item>
+        <item>Class hour</item>
+        <item>Literature</item>
+        <item>Math</item>
+        <item>Math workshop</item>
+        <item>German</item>
+        <item>Russian language norms</item>
+        <item>Social science</item>
+        <item>Social science - USE</item>
+        <item>LSB</item>
+        <item>Law</item>
+        <item>Individual project</item>
+        <item>Russian</item>
+        <item>NRL</item>
+        <item>Essays</item>
+        <item>Professional career technology</item>
+        <item>French</item>
+        <item>Physics</item>
+        <item>PE</item>
+        <item>Financial literacy</item>
+        <item>Chemistry</item>
+    </string-array>
+
+    <string-array name="Classes">
+        <item>Astronomy</item>
+        <item>ITTP</item>
+        <item>Class Hour</item>
+        <item>Math</item>
+        <item>Social Science</item>
+        <item>LSB</item>
+        <item>Russian</item>
+        <item>Soft Skills</item>
+        <item>Social Psychology</item>
+        <item>Time-management</item>
+        <item>Physics</item>
+        <item>PE</item>
+    </string-array>
+
+    <string-array name="OldNote">
+        <item>Note from version TSON 2.0.0</item>
+    </string-array>
+
+
+</resources>

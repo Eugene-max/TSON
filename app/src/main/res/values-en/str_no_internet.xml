@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="No_Internet">No internet</string>
+    <string name="No_Internet_sol">No internet connection. The lesson schedule is displayed as standard, without changes.</string>
+    <string name="Try_Again">Try Again</string>
+    <string name="Turn_On_Internet">Turn on Wi-Fi or Mobile Data</string>
+
+</resources>

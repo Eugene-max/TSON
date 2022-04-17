@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Menu">Menu</string>
+    <string name="Update">Update</string>
+    <string name="AboutApp">About app</string>
+    <string name="Bug_report">Bug report</string>
+    <string name="Button_download_update_text">Download update</string>
+    <string name="Feedback">Feedback</string>
+
+</resources>

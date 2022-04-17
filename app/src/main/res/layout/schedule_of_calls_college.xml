@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:gravity="start"
+            android:layout_width="95dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:theme="@style/Button.Menu"
+                android:textSize="17sp"
+                android:textColor="@color/TextButton"
+                android:id="@+id/Back_BTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Back"
+                android:onClick="Back"
+                android:textAllCaps="false"
+                android:fontFamily="@font/golos_text_regular"
+                android:letterSpacing="0"
+                android:paddingHorizontal="6dp"
+                app:icon="@drawable/ic_back"
+                app:iconTint="@color/BrandColor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:layout_width="95dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:theme="@style/Button.Menu"
+                android:layout_marginEnd="6dp"
+                android:gravity="end"
+                android:id="@+id/Menu"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:onClick="Menu"
+                android:paddingHorizontal="20dp"
+                app:icon="@drawable/ic_button_menu"
+                app:iconTint="@color/BrandColor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:paddingHorizontal="28dp"
+                android:text="@string/ScheduleOfCalls"
+                android:fontFamily="@font/golos_text_demibold"
+                android:textSize="34sp"
+                android:textColor="@color/Text" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginVertical="8dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ScheduleOfCalls_Class1"
+                        android:textSize="22sp"
+                        android:textColor="@color/TextButton"
+                        android:fontFamily="@font/sf_pro_rounded_heavy"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ScheduleOfCalls_Class1_Time"
+                        android:textSize="22sp"
+                        android:textColor="@color/Text"
+                        android:fontFamily="@font/sf_pro_rounded_semibold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginVertical="8dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ScheduleOfCalls_Class2"
+                        android:textSize="22sp"
+                        android:textColor="@color/TextButton"
+                        android:fontFamily="@font/sf_pro_rounded_heavy"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ScheduleOfCalls_Class2_Time"
+                        android:textSize="22sp"
+                        android:textColor="@color/Text"
+                        android:fontFamily="@font/sf_pro_rounded_semibold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginVertical="8dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ScheduleOfCalls_Class3"
+                        android:textSize="22sp"
+                        android:textColor="@color/TextButton"
+                        android:fontFamily="@font/sf_pro_rounded_heavy"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ScheduleOfCalls_Class3_Time"
+                        android:textSize="22sp"
+                        android:textColor="@color/Text"
+                        android:fontFamily="@font/sf_pro_rounded_semibold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginVertical="8dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ScheduleOfCalls_Class4"
+                        android:textSize="22sp"
+                        android:textColor="@color/TextButton"
+                        android:fontFamily="@font/sf_pro_rounded_heavy"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ScheduleOfCalls_Class4_Time"
+                        android:textSize="22sp"
+                        android:textColor="@color/Text"
+                        android:fontFamily="@font/sf_pro_rounded_semibold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginVertical="8dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ScheduleOfCalls_Class5"
+                        android:textSize="22sp"
+                        android:textColor="@color/TextButton"
+                        android:fontFamily="@font/sf_pro_rounded_heavy"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ScheduleOfCalls_Class5_Time"
+                        android:textSize="22sp"
+                        android:textColor="@color/Text"
+                        android:fontFamily="@font/sf_pro_rounded_semibold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginVertical="8dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ScheduleOfCalls_Class6"
+                        android:textSize="22sp"
+                        android:textColor="@color/TextButton"
+                        android:fontFamily="@font/sf_pro_rounded_heavy"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ScheduleOfCalls_Class6_Time"
+                        android:textSize="22sp"
+                        android:textColor="@color/Text"
+                        android:fontFamily="@font/sf_pro_rounded_semibold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
