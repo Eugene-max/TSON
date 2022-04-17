@@ -1,3 +1,2 @@
-# TSON
-This TSON app by Lavrentev
+# TSON by Lavrentev
 Это TSON. Больше чем просто дневник.
